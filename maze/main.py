@@ -1,5 +1,6 @@
 import pygame as pg 
-import maze.settings as settings 
+import settings 
+import mazegenerator as mg
 
 
 class Game: 
@@ -16,6 +17,8 @@ class Game:
                 if event.type == pg.QUIT: 
                     done = True
             dt = self.clock.tick(settings.FPS)
+            #self.display.blit(self.background, (0, 0))
+            mg.paint_maze(screen=self.display)
             pg.display.update()
 
     pg.quit()
