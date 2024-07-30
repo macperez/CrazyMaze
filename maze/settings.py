@@ -1,0 +1,4 @@
+CAPTION = "Crazy Maze"
+WIDTH = 720
+HEIGHT = 400
+FPS = 60
