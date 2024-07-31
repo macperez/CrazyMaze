@@ -34,5 +34,3 @@ def paint_maze(screen: object, screen_width: int) -> None:
 
 
 
-def create_matrix():
-    
